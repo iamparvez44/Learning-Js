@@ -8,9 +8,9 @@
 
 // console.log(a, b, c, d);
 
-// chapter 01 practice set
+// // chapter 01 practice set
 
-// here i am adding two data types.
+// // here i am adding two data types.
 
 // let a =  ("Parvez");
 // let b = 25;
@@ -31,7 +31,7 @@
 
 // console.log(a);
 
-// Q4 - make a dicsnory
+// // Q4 - make a dicsnory
 
 // const dics = {
 //     erudite : "characterized by great knowledge; learned or scholarly",
@@ -42,7 +42,7 @@
 
 // console.log(dics.isingenuous);
 
-// Operators in Js
+// // Operators in Js
 
 // let a = 3;
 // let b = (100+50);
@@ -51,13 +51,13 @@
 
 // console.log(result);
 
-//assignment operator
+// //assignment operator
 
-let a = 10;
-console.log(a);
-a+=5;
-console.log(a);
-a-=3;
-console.log(a);
-a*=5;
-console.log(a);
+// let a = 10;
+// console.log(a);
+// a+=5;
+// console.log(a);
+// a-=3;
+// console.log(a);
+// a*=5;
+// console.log(a);
