@@ -1,6 +1,5 @@
 // let a = 45;
 
-
 // let b = "hey there i am a string";
 
 // let c = true;
@@ -61,3 +60,79 @@
 // console.log(a);
 // a*=5;
 // console.log(a);
+
+// conditional expressions
+
+// let a = prompt("Enter your Age: ");
+// if(a>0){
+//     alert("This is not a vailed Age");
+// }
+
+// switch case
+
+/*let day = "wednesday";
+switch (day) {
+  case "Monday":
+    console.log("8am");
+    break;
+
+  case "tuesday":
+    console.log("9am");
+    break;
+  case "wednesday":
+    console.log("10am");
+    break;
+  case "thursday":
+    console.log("11am");
+    break;
+  case "friday":
+    console.log("12am");
+    break;
+  case "saturday":
+    console.log("1am");
+    break;
+
+  default:
+    console.log("Not exist");
+} */
+
+// Q1
+
+/*let age = prompt("Enter Your Age : ");
+if(age>=10 && age<=20){
+    console.log("You age is perfect");
+}else{
+    console.log("invelied age");
+}*/
+
+//Q2
+
+// let a = 18;
+
+
+// if(a%2==0 && a%4==0){
+//     console.log("this number is divisble by both");
+// }
+// else{
+//     console.log("Not Devisble ");
+// }
+
+// loops
+
+// for (let step = 0; step < 5; step++) {
+//     console.log("Walking east one step");
+//   }
+  
+
+//   for(let a = 1; a<=10; a++){
+//     console.log(a);
+//   }
+
+// print the sum of n numbers
+
+let sum = 0;
+for(let i=0; i<=5; i++){
+    sum = i+sum;
+}
+console.log(sum);
+
