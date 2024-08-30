@@ -130,9 +130,25 @@ if(age>=10 && age<=20){
 
 // print the sum of n numbers
 
-let sum = 0;
+/*let sum = 0;
 for(let i=0; i<=5; i++){
     sum = i+sum;
 }
-console.log(sum);
+console.log(sum); */
 
+// FOR IN LOOP
+
+let obj = {
+    parvez: '23',
+    haris: '32',
+    ali: '55',
+    osama: '73',
+    anas: '75',
+    nazim: '92',
+    faiz: '02',
+    nadeem: '71',
+}
+for (const key in obj) {
+    const element = obj[key];
+    console.log(key, element);
+}
