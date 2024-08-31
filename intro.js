@@ -138,17 +138,40 @@ console.log(sum); */
 
 // FOR IN LOOP
 
-let obj = {
-    parvez: '23',
-    haris: '32',
-    ali: '55',
-    osama: '73',
-    anas: '75',
-    nazim: '92',
-    faiz: '02',
-    nadeem: '71',
+// let obj = {
+//     parvez: '23',
+//     haris: '32',
+//     ali: '55',
+//     osama: '73',
+//     anas: '75',
+//     nazim: '92',
+//     faiz: '02',
+//     nadeem: '71',
+// }
+// for (const key in obj) {
+//     const element = obj[key];
+//     console.log(key, element);
+// }
+
+// while loop
+
+// let i = 1;
+// let n = 10;
+// while(i<=n){
+//   console.log(i);
+//   i++;
+// }
+
+// Functions in javaScript
+
+function onePlusAvg(x,y){
+  return 1+(x+y)/2
 }
-for (const key in obj) {
-    const element = obj[key];
-    console.log(key, element);
-}
+
+let a = 2;
+let b = 4;
+let c = 6;
+
+console.log("The One Plus a and b is ",onePlusAvg(a,b));
+console.log("The One Plus b and c is ",onePlusAvg(b,c));
+console.log("The One Plus c and a is ",onePlusAvg(c,a));
