@@ -164,14 +164,15 @@ console.log(sum); */
 
 // Functions in javaScript
 
-function onePlusAvg(x,y){
-  return 1+(x+y)/2
-}
+// function onePlusAvg(x,y){
+//   return 1+(x+y)/2
+// }
 
-let a = 2;
-let b = 4;
-let c = 6;
+// let a = 2;
+// let b = 4;
+// let c = 6;
 
-console.log("The One Plus a and b is ",onePlusAvg(a,b));
-console.log("The One Plus b and c is ",onePlusAvg(b,c));
-console.log("The One Plus c and a is ",onePlusAvg(c,a));
+// console.log("The One Plus a and b is ",onePlusAvg(a,b));
+// console.log("The One Plus b and c is ",onePlusAvg(b,c));
+// console.log("The One Plus c and a is ",onePlusAvg(c,a));
+
