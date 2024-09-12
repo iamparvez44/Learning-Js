@@ -150,24 +150,44 @@ console.log("Welcome to the function lacture");
 
 // arrowSm(a,b);
 
-function findvowle(str) {
-  let count = 0;
+// function findvowle(str) {
+//   let count = 0;
 
-  for (const char of str) {
-    if (
-      char === "a" ||
-      char === "e" ||
-      char === "i" ||
-      char === "o" ||
-      char === "u"
-    ) {
-      count++;
-    }
-  }
-  console.log(count);
-}
+//   for (const char of str) {
+//     if (
+//       char === "a" ||
+//       char === "e" ||
+//       char === "i" ||
+//       char === "o" ||
+//       char === "u"
+//     ) {
+//       count++;
+//     }
+//   }
+//   console.log(count);
+// }
 
-let a = prompt("Enter a String");
-findvowle(a);
+// let a = prompt("Enter a String");
+// findvowle(a);
 
+// FOR EACH IN ARRAYS
 
+// let arr = [4,43,33,42,56,67,71];
+
+// let newArr = arr.map((val)=>{
+//     return val;
+// });
+
+// console.log(newArr);
+
+// arr.map((val)=>{
+//     console.log(val);
+// })
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+let evenArr = arr.filter((val) => {
+  return val % 2 === 0;
+});
+
+console.log(evenArr);
