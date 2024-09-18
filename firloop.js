@@ -94,21 +94,21 @@
 
 // practice que to store the info of insta hand
 
-const instagram = {
-    fullName: "Shradda Khapra",
-    isFollow: true,
-    follwers: 345+"k",
-    following: 873,
-    userName: "shradda001",
-    bio: "Hey this is shradda the full stack engeener and also worked in microsoft as a senior developer engeener"
+// const instagram = {
+//     fullName: "Shradda Khapra",
+//     isFollow: true,
+//     follwers: 345+"k",
+//     following: 873,
+//     userName: "shradda001",
+//     bio: "Hey this is shradda the full stack engeener and also worked in microsoft as a senior developer engeener"
 
 
 
-};
+// };
 
-instagram["following"] = 1200;
+// instagram["following"] = 1200;
 
-console.log(instagram.following);
-console.log(instagram["fullName"]);
-// console.log(instagram);
-console.log(typeof ["isFollow"]);
+// console.log(instagram.following);
+// console.log(instagram["fullName"]);
+// // console.log(instagram);
+// console.log(typeof ["isFollow"]);

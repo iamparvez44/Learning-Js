@@ -1,4 +1,4 @@
-console.log("Welcome to the function lacture");
+// console.log("Welcome to the function lacture");
 
 // let marks = [17,72,21,23,5,98];
 // console.log(marks);
@@ -184,10 +184,10 @@ console.log("Welcome to the function lacture");
 //     console.log(val);
 // })
 
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-let evenArr = arr.filter((val) => {
-  return val % 2 === 0;
-});
+// let evenArr = arr.filter((val) => {
+//   return val % 2 === 0;
+// });
 
-console.log(evenArr);
+// console.log(evenArr); 

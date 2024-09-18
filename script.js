@@ -1,92 +1,85 @@
-// console.log("Arthmatic Operators");
+// let btn = document.querySelector("#btn");
+// console.log(btn);
 
-// let a = 5;
-// let b = 3;
-// console.log("a = 5 & b = 3");
-// console.log("a+b =",a+b);
-// console.log("a-b =",a-b);
-// console.log("a*b =",a*b);
-// console.log("a/b =",a/b);
+// btn.style.backgroundColor = ("green");
 
-//conditional statment
+// let items = document.querySelector(".form_control:last-child");
+// console.log(items);
 
-// let age = 18;
+//     items.style.color = "red";
 
-// if(age<=10){
-//     console.log("You Can Vote");
-// }
-// else{
-//     console.log("You can not Vote");
-// }
+// document.body.childNodes[3].innerText = "Parvez";
 
-// let Num = prompt("Enter a Number : ");
+// let firstTag = document.querySelector(".form_control");
+// console.dir(firstTag);
+// console.log(firstTag);
+// console.log(firstTag.tagName);
 
-// if(Num%5===0){
-//     console.log("The Number is multiple of 5");
-// }
-// else{
-//     console.log("The Number is Not multiple of 5");
-// }
+// let heading = document.querySelector("h2");
+// console.log(heading);
+// console.dir(heading);
 
-// write a code to give gread to std according to thair score 
+// heading.innerText = heading.innerText + ("Apna College Student")
 
-// let score = prompt("Enter the Marks : ");
-// if(score>=90 && score<=100){
-//     console.log("A");
-// }
-// else if(score>=70 && score<=89){
-//     console.log("B");
-// }
-// else if(score>=60 && score<=69){
-//     console.log("C");
-// }
-// else if(score>=50 && score<=59){
-//     console.log("D");
-// }
-// else{
-//     console.log("F");
-// }
+// let divs = document.querySelectorAll(".box");
+// console.log(divs);
+// divs[0].innerText = "Mango";
+// divs[0].style.backgroundColor = "orange";
+// divs[1].innerText = "Apple";
+// divs[1].style.backgroundColor = "yellow ";
+// divs[2].innerText = "Banana";
 
-// Loops and Strings
+// let box = document.querySelector("div");
+// console.log(box);
+// let myId = div.getAttribute("box1");
+// console.log(myId);
 
-// for of loop
+// let btn1 = document.querySelector("#btn1");
+// console.log(btn1);
 
-// let str = "Parvez";
+// btn1.addEventListener("click", ()=>{
+//     console.log("Button was clicked")
+// })
+// btn1.addEventListener("click", ()=>{
+//     console.log("Button was clicked 2")
+// })
 
-// for(let i of str){
-//     console.log(i);
-// }
+// let div = document.querySelector("div");
+// console.log(div);
 
-// For in Loops
-
-// let student = {
-
-//     fullName: "Parvez Alam",
-//     age: 26,
-//     cgpa: 7.5,
-//     isPass: true
-
+// div.onmouseover = (event) => {
+//   console.log("You are in the Box");
+//   console.log(event);
+//   console.log(event.type);
+//   console.log(event.target);
+//   console.log(event.clientX, event.clientY);
 // };
 
-// for(let key in student){
-//     console.log(key, student[key]);
-// }
+// let btn = document.querySelector("#mode");
+// let currMode = "light";
 
-// Create a game where take a user input and match with that input to the game number
+// btn.addEventListener("click", (e)=>{
+//     if(currMode=="light"){
+//         currMode = "dark";
+//         document.querySelector("body").style.backgroundColor = "black";
+//     }else{
+//         currMode = "light";
+//         document.querySelector("body").style.backgroundColor = "pink";
+//     }
+//     console.log(currMode);
+// })
 
-// let gameNum = 18;
+let box = document.querySelector("#box");
+let stage = "normal"
+console.log(box);
 
-// let userNum = prompt("Guess The Number");
-
-// while(userNum != gameNum){
-//     let userNum = prompt("Sorry Guess Again");
-// }
-// console.log("Congratulation!! You Entered The right number");
-
-//Make a user name to create his account
-
-let fullName = prompt("Enter The fullName");
-
-let userName = "@"+fullName+fullName.length;
-
-console.log(userName);
+box.addEventListener("mouseover", (e)=>{
+    if(stage=="normal"){
+        stage="abnormal";
+        document.querySelector("#box").style.backgroundColor = "black";
+    }else{
+        stage = "normal";
+        document.querySelector("#box").style.backgroundColor = "pink";
+    }
+    console.log(stage);
+})
